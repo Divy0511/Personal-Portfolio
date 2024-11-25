@@ -1,0 +1,50 @@
+.hero-section {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    justify-content: center; /* Horizontally center the items */
+    padding: 5rem;
+    text-align: center; /* Center text within the hero-content */
+}
+
+.hero-content {
+    flex: 1;
+    margin-right: 2rem; /* Adjust margin to reduce space on the right */
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex; /* Use flexbox for centering the image */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.hero-image img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.hero-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 1000%;
+    border: 5px solid #f8c304; /* Add a white border around the image */
+    
+}

@@ -1,0 +1,64 @@
+/* ContactMe.css */
+
+.contact-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    height:40vh;
+  }
+  
+  .contact-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+  }
+  
+  .contact-input::placeholder,
+  .contact-textarea::placeholder {
+    color: #aaaaaa;
+  }
+  
+  .contact-textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #f8c304;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #a48205;
+  }
+  

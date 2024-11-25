@@ -1,0 +1,139 @@
+.navbar {
+  position: fixed; 
+  top: 5px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px; /* Increased padding for more space */
+  background-color: #131313;
+  width: 90%; /* Adjusted width for the navbar */
+  max-width: 100%; /* Allow navbar to take up full width */
+  border-radius: 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  z-index: 1000;
+}
+
+
+.navbar a {
+  color: #ffffff;
+  justify-content: none;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 16px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 1px;
+}
+
+.navbar .icons {
+  
+  display: flex;
+  align-items: left;
+}
+.navbar .social-icons img {
+  width: 25px; /* Set the desired width for the logo */
+  height: 25px; /* Maintain aspect ratio */
+  margin:  0 5px; /* Add some spacing around the logo */
+  display: inline-block; /* Ensures it's in line with other icons */
+  border-radius: 50%; /* Optional: Makes the logo circular if it's square */
+}
+.navbar .social-icons img:hover {
+  filter: brightness(1.2); /* Slightly brightens the logo on hover */
+  transform: scale(1.1);   /* Scales the logo slightly on hover */
+  transition: transform 0.2s ease, filter 0.2s ease; /* Smooth transition */
+}
+
+
+.navbar .social-icons {
+  
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar .social-icons a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar .social-icons a:hover {
+  color: #ffffff; /* Optional: Highlight color on hover */
+}
+
+.cta {
+  font-size: 16px;
+  position: relative;
+  margin: auto;
+  padding: 1em 2em;
+  border: none;
+  background: #fff;
+  transition: all 0.1s linear;
+  box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+  text-decoration: none; /* Ensure it behaves like a button */
+  display: inline-block; /* Allow margins and padding */
+  text-align: center;
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+.cta span {
+  color: #464646;
+}
+
+.cta .border {
+  position: absolute;
+  border: 0.15em solid #fff;
+  transition: all 0.3s 0.08s linear;
+  top: 50%;
+  left: 50%;
+  width: 7em;
+  height: 2em;
+  transform: translate(-50%, -50%);
+  border-radius: 3em; /* To maintain rounded corners */
+}
+
+
+
+.full-rounded {
+  border-radius: 2em;
+}
+.navbar a, .cta {
+  color: #ffffff; /* Default text color */
+  text-decoration: none; /* Remove underlines */
+  position: relative; /* Enable pseudo-elements */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.navbar a:hover, .cta:hover {
+  color: #ffffff; /* Highlight color */
+  transform: scale(1.1); /* Slight enlargement */
+}
+
+/* Underline hover effect */
+.navbar a::after, .cta::after {
+  content: ""; /* Pseudo-element for underline */
+  position: absolute;
+  bottom: -5px; /* Distance below text */
+  left: 0;
+  width: 0; /* Initially no width */
+  height: 2px; /* Thickness of underline */
+  background: #ffffff; /* Underline color */
+  transition: width 0.3s ease; /* Smooth underline animation */
+}
+
+.navbar a:hover::after, .cta:hover::after {
+  width: 100%; /* Full width underline on hover */
+}
