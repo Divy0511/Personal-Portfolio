@@ -5,10 +5,11 @@ const HeroSection = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <h1>I'm Divy.</h1>
-        <h2>I Code * Create * Innovate.</h2>
-        <p>Empowering Ideas Through End-to-End Development</p>
-        <p>Expertise and Seamless User Interfaces</p>
+        <h1>Hey I'm Divy</h1>
+        <p>"Computer Science student at York University passionate about solving real-world problems through software development
+         and data analysis, leveraging innovative technologies to uncover insights, optimize processes, 
+         and create impactful solutions to make people's lives easier and contribute to making the world a better place."</p>
+        
       </div>
       <div className="hero-image">
        

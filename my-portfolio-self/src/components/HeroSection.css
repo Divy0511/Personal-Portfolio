@@ -1,6 +1,6 @@
 .hero-section {
     background-color: black;
-    color: white;
+    color:  #ffffff;
     display: flex;
     align-items: center; /* Vertically center the items */
     justify-content: center; /* Horizontally center the items */
@@ -24,6 +24,7 @@
 }
 
 .hero-content p {
+    color:#94ade2;
     font-size: 1.2rem;
     line-height: 1.5;
 }
@@ -45,6 +46,6 @@
     width: 50%;
     height: auto;
     border-radius: 1000%;
-    border: 5px solid #f8c304; /* Add a white border around the image */
+    border: 5px solid #94ade2; /* Add a white border around the image */
     
 }
