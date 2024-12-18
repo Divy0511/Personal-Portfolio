@@ -7,7 +7,7 @@ const Navbar = () => {
       {/* Logo Section */}
       <div className="logo">
         <a href="#HeroSection">
-          <img src="hero.png" alt="Home" />
+          <img src="home.png" alt="Home" />
         </a>
         <a href="#AboutMe">About</a>
         <a href="#Projects">Projects</a>
